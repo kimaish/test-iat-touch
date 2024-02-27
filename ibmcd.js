@@ -21,9 +21,9 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/hansika-k/iat@main/touchtrue.js']
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		},	
 		category2 :	{
-			name : 'McDowell's', //Will appear in the data.
+			name : 'McDowell\'s', //Will appear in the data.
 			title : {
-				media : {word : 'McDowell's'}, //Name of the category presented in the task.
+				media : {word : 'McDowell\'s'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'1.8em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
@@ -75,7 +75,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/hansika-k/iat@main/touchtrue.js']
 		},
 
 		base_url : {//Where are your images at?
-			image : 'https://github.com/hansika-k/iat/tree/main/images/'
+			image : 'https://github.com/kimaish/test-iat-touch/imgjpg/'
 		} 
 	});
 });
