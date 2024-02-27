@@ -50,7 +50,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/hansika-k/iat@main/touchtrue.js']
 				{word: 'youthful'},
 				{word: 'premium'},
 				{word: 'classic'},
-				{word: 'friend's party'}
+				{word: 'friend\'s party'}
 			],
 			//Stimulus css
 			stimulusCss : {color:'#0000FF','font-size':'2.3em'}
