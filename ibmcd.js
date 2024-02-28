@@ -1,26 +1,26 @@
-define(['managerAPI', 'pipAPI', 'https://cdn.jsdelivr.net/gh/hansika-k/iat@main/touchtrue.js'], function(Manager, APIConstructor, iatExtension){
-    var API = new APIConstructor();
-	var ManagerAPI = new Manager();
-	ManagerAPI.addSettings('skip', true);
-	ManagerAPI.setName('mgr');
-	var global = ManagerAPI.getGlobal(); 
+// define(['managerAPI', 'pipAPI', 'https://cdn.jsdelivr.net/gh/hansika-k/iat@main/touchtrue.js'], function(Manager, APIConstructor, iatExtension){
+//     var API = new APIConstructor();
+// 	var ManagerAPI = new Manager();
+// 	ManagerAPI.addSettings('skip', true);
+// 	ManagerAPI.setName('mgr');
+// 	var global = ManagerAPI.getGlobal(); 
 
-	ManagerAPI.addGlobal({
-        	mediaURL: 'https://github.com/kimaish/test-iat-touch/'
-        });
+// 	ManagerAPI.addGlobal({
+//         	mediaURL: 'https://github.com/kimaish/test-iat-touch/'
+//         });
 
-	var imagesArray = [];
-	imagesArray.push(global.mediaURL + 'IB1.jpg');
-	imagesArray.push(global.mediaURL + 'IB2.jpg');
-	imagesArray.push(global.mediaURL + 'IB3.jpg');
-	imagesArray.push(global.mediaURL + 'IB4.jpg');
-	imagesArray.push(global.mediaURL + 'IB5.jpg');
-	imagesArray.push(global.mediaURL + 'McD1.jpg');
-	imagesArray.push(global.mediaURL + 'McD2.jpg');
-	imagesArray.push(global.mediaURL + 'McD3.jpg');
-	imagesArray.push(global.mediaURL + 'McD4.jpg');
-	imagesArray.push(global.mediaURL + 'McD5.jpg');
-	ManagerAPI.addSettings('preloadImages', imagesArray);
+// 	var imagesArray = [];
+// 	imagesArray.push(global.mediaURL + 'IB1.jpg');
+// 	imagesArray.push(global.mediaURL + 'IB2.jpg');
+// 	imagesArray.push(global.mediaURL + 'IB3.jpg');
+// 	imagesArray.push(global.mediaURL + 'IB4.jpg');
+// 	imagesArray.push(global.mediaURL + 'IB5.jpg');
+// 	imagesArray.push(global.mediaURL + 'McD1.jpg');
+// 	imagesArray.push(global.mediaURL + 'McD2.jpg');
+// 	imagesArray.push(global.mediaURL + 'McD3.jpg');
+// 	imagesArray.push(global.mediaURL + 'McD4.jpg');
+// 	imagesArray.push(global.mediaURL + 'McD5.jpg');
+// 	ManagerAPI.addSettings('preloadImages', imagesArray);
 	
 	return iatExtension({
 
